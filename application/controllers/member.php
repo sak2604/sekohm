@@ -73,7 +73,7 @@ class member extends CI_Controller {
 	{
 	    $this->load->model('fauli_models');
 	    $re= $this->fauli_models->get_category();
-	    $da['fauli1_res']=$re;
+	    $da['fau_res']=$re;
 	    
 	    $this->load->view('tmp1/head1');
 	    // $this->load->view('tmp/menu');

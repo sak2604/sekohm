@@ -2,10 +2,12 @@
 
 
 
+<br>
+<br>
+<br>
 
 
-
-<div id="container" style="min-width: 700px; height: 1000px; max-width: 1000px; margin: 0 auto"></div>
+<div id="container" style="min-width: 700px; height: 600px; max-width: 1000px; margin: 0 auto"></div>
 
 <script>
 

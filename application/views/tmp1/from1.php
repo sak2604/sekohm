@@ -28,13 +28,7 @@
   
           
        
-หมวดความผิด : 
-<select name="cars">
-    <option value="volvo">ความผิดวินัย</option>
-    <option value="saab">ทำร้ายร่างกาย</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-  </select>  &nbsp;&nbsp; &nbsp;&nbsp; 
+
 <br><br>
   &nbsp;&nbsp;ฐานความผิด :&nbsp;&nbsp;&nbsp; <select name="cars">
     <option value="volvo">ความผิดวินัย</option>
