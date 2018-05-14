@@ -5,7 +5,7 @@
 
 <br><br>
 <tr>
-<th>id</th>
+<th></th>
 <th>wron_id</th>
 <th>หมวดความผิด</th>
 <th>ฐานความผิด</th>

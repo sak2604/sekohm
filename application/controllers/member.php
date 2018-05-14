@@ -26,10 +26,37 @@ class member extends CI_Controller {
 	}
 	public function test1()
 	{
+	    $this->load->model('fauli_models');
+	    $re= $this->fauli_models->get_category();
+	    $da['fau_res']=$re;
+	    
+	    
+	    
+	    
+	    $this->load->model('fauli_models');
+	    $rei= $this->fauli_models->get_base();
+	    $dad['faui_res']=$rei;
+	    
+	    
+	    
+	   
+	    
+	    
 	    $this->load->view('tmp1/head1');
+	    $this->load->view('tmp1/from2');
 	   //$this->load->view('tmp/menu');
+	    $this->load->view('category',$da);
+	    
+	    
+	    
+	    $this->load->view('base',$dad);
+	    
+	    
+	    
 	    $this->load->view('tmp1/from1');
-	 
+	  
+	    
+	    
 	}
 	
 	
@@ -71,16 +98,19 @@ class member extends CI_Controller {
 	
 	public function category()
 	{
-	    $this->load->model('fauli_models');
-	    $re= $this->fauli_models->get_category();
-	    $da['fau_res']=$re;
+	   
 	    
 	    $this->load->view('tmp1/head1');
 	    // $this->load->view('tmp/menu');
-	    $this->load->view('category',$da);
+	    
 	    
 	    
 	}
-	
+	public function base()
+	{
+	   
+	    
+	    
+	}
 }
 

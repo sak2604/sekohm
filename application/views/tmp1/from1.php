@@ -1,20 +1,6 @@
 
 
-        <div class="col-lg-9">
 
-          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-          <br><br> 
-          
-            
-     <a class="navbar-brand" href="#"> บันทึกความผิด</a>
-      
-      &nbsp;&nbsp;   รหัสกระทำความผิด
- &nbsp;&nbsp; HN61001
   
   
   
@@ -29,13 +15,7 @@
           
        
 
-<br><br>
-  &nbsp;&nbsp;ฐานความผิด :&nbsp;&nbsp;&nbsp; <select name="cars">
-    <option value="volvo">ความผิดวินัย</option>
-    <option value="saab">ทำร้ายร่างกาย</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-  </select><br><br>
+
     &nbsp;&nbsp;รายละเอียดการทำความผิด:
  &nbsp;&nbsp; <form>
   <textarea>Some text...</textarea>

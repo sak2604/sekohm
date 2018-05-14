@@ -17,13 +17,27 @@ class fauli_models extends CI_Model {
         $query = $this->db->query('SELECT *from category ORDER BY per DESC');
         return $query->result();
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public function get_category()
     {
         $query = $this->db->query('SELECT *from category ORDER BY ca DESC');
         return $query->result();
     }
     
-    
+    public function get_base()
+    {
+        $query = $this->db->query('SELECT *from base ORDER BY base DESC');
+        return $query->result();
+    }
     
     
     public function insert_entry()
